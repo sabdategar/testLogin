@@ -14,7 +14,7 @@ import tegar.daily.loginmvp.R;
 
 public class LoginActivity extends AppCompatActivity implements LoginView {
     LoginPresenterImp presenter;
-    TextView tv_satu;
+    TextView tv_halo;
     EditText et_username, et_password;
     Button bt_login;
 
@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     }
 
     private void initView(){
-        tv_satu = (TextView)findViewById(R.id.tv_satu);
+        tv_halo = (TextView)findViewById(R.id.tv_halo);
         et_username = (EditText)findViewById(R.id.et_username);
         et_password = (EditText)findViewById(R.id.et_password);
         bt_login = (Button)findViewById(R.id.bt_login);
